@@ -308,45 +308,78 @@
   </section>
   <!--education end-->
   <!--protfolio start-->
-  <section class="protfolio" id="protfolio">
-    <div class="container">
-      <div class="heading">
-        <h2>Portfolio</h2>
-        <p>showcase of my latest works</p>
-      </div>
-      <div class="portfolioFilter">
-        <ul>
-          <li><a href="#" data-filter="*" class="current">All</a></li>
-        </ul>
-      </div>
-      <ul class="portfolioContainer row">
-        <li class="photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/home-page.gif" title="Cheetah" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://chee-tah.herokuapp.com/" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/portfolio/home-page.gif" alt="" class='showcaseThumbnail'> <div><h2>Cheetah</h2><h5>A web app to sync Youtube videos</h5></div></div>
-        </li>
-        <li class="branding illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/home.png" title="Project Title2" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/portfolio/home.png" alt="" class="showcaseThumbnail"> <h2>Cheetah</h2><h5>A web app to sync Youtube videos</h5></div>
-        </li>
-        <li class="illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/3.jpg" title="Project Title3" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image3" alt="" > </div>
-        </li>
-        <li class="branding illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/4.jpg" title="Project Title4" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image4" alt="" > </div>
-        </li>
-        <li class="illustration photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/5.jpg" title="Project Title5" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image5" alt="" > </div>
-        </li>
-        <li class="branding photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/6.jpg" title="Project Title6" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image6" alt="" > </div>
-        </li>
-        <li class="illustration photos col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/7.jpg" title="Project Title7" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image7" alt="" > </div>
-        </li>
-        <li class="branding col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/portfolio/big/8.jpg" title="Project Title8" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="#" title="Project Link" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="http://placehold.it/450x450&text=image8" alt="" > </div>
-        </li>
-      </ul>
+  <div id="projects" class="background-alt">
+    <div class="heading">
+      <h2>Portfolio</h2>
     </div>
-  </section>
+    <div class="container">
+        <div class="row">
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/cheetah.png">
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Chee-Tah</h3>
+                    <p>
+                        A webapp to watch Youtube videos with others. Users can see what public rooms are available to join and what video each room is playing. Video playback is synchronized with the admin of the room. The final project for Lighthouse Lab's bootcamp.
+                    </p>
+                    <a href="https://github.com/tw5033/Chee-Tah">View Project</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/portfolio/home.png">
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Steveston Foods</h3>
+                    <p>
+                        A web app for a fictious restaurant that provides an order pickup service. Users will be able to view the restaurant's menu and create their order. The midterm project for Lighthouse Lab's bootcamp.
+                    </p>
+                    <a href="https://github.com/tw5033/lighthouse-midterm">View Project</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="https://github.com/tw5033/lighthouse-chatty/blob/screenshots/screenshots/img.png?raw=true">
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Chatty-App</h3>
+                    <p>
+                      A SPA built with ReactJS that allows users with communicate with one another.
+                    </p>
+                    <a href="https://github.com/tw5033/lighthouse-chatty">View Project</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/tweeter.png">
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Tweeter</h3>
+                    <p>
+                        A simple, single-page Twitter clone. The purpose of the project was to get some taste of front-end development as well as MongoDB experience
+                    </p>
+                    <a href="https://github.com/tw5033/tweeter">View Project</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+        </div>
+    </div>
+</div>
   <!--protfolio end-->
   <!--contact start-->
   <section class="contact" id="contact">
