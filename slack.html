@@ -1,0 +1,27 @@
+<html>
+    <head>
+    <title>Slack App Authentication</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"/>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="">Slack App Authentication</h1>
+      
+      <p>Thank you! Please copy and paste the following into the Slack CLI:</p>
+
+      <div class="input-field">
+        <textarea id="textarea" class="textarea"></textarea>
+      </div>
+    </div>
+
+    <script>
+      const url = new URL(location.href);
+      const authCode = url.searchParams.get('code');
+      document.querySelector('textarea').value = authCode;
+    </script>
+  
+
+    </body>
+</html>
